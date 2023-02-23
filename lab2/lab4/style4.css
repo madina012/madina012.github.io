@@ -1,0 +1,63 @@
+body{
+    background-image: url(img4/fabric_1.png);
+    background-color: #cfdee3;
+    }
+
+h1{ 
+    text-align: center;
+    color: rgb(72, 127, 88);
+    font-family: cursive;
+    font-size: 500%;
+}
+h2{
+    text-align: center;
+    color: rgb(72, 127, 88);
+    font-family: cursive;
+    font-size: 250%;
+}
+
+h3{
+    text-align: center;
+    color: rgb(10, 10, 10);
+    font-family: cursive;
+    font-size: 200%;
+}
+p{
+    font-size: 200%;
+}
+.picture{
+    margin-left:3cm;
+    margin-top: -7cm;
+    width: 500px;
+}
+.pic1{
+    float: right;
+    margin-left:-2cm;
+    margin-top: -8cm;
+    width: 350px;}
+    
+.pic2{
+    margin-left:-2cm;
+    margin-top: -8cm;
+    width: 500px;
+    
+    }
+@media screen and (max-width: 1200px) {
+    .pic{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 998px) {
+    .pic{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 789px) {
+   .pic{
+     width: 300px }
+}
+@media screen and (max-width: 576) {
+    .pic{
+        width: 200px;
+    }
+} 

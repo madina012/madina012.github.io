@@ -1,0 +1,58 @@
+
+body{
+    background:linear-gradient(45deg,#EECFBA, #C5DDE8);
+}
+
+.title{
+    
+    margin-left: 10cm;
+    font-size: 500%;
+    text-shadow: 2px 2px 3px #eceaea;
+    color: #54709cc1;;
+    
+}
+h2{
+    font-family: cursive;
+    margin-top: -4cm;
+    margin-left:13cm;
+    font-size: 150%;
+    color: hsl(209, 42%, 33%);
+}
+
+p{
+    font-size: 200%;
+    margin-left: 5cm;
+    margin-top: 0cm;
+    color: rgb(21, 22, 22);
+    font-family: 'Times New Roman', Times, serif;
+}
+.picture{
+    margin-left:-3cm;
+    margin-top: -7cm;
+}
+.pic2{
+    width: 1200px;
+    margin-left: 6cm;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .pic{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 998px) {
+    .pic{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 789px) {
+   .pic{
+     width: 300px }
+}
+@media screen and (max-width: 576) {
+    .pic{
+        width: 200px;
+    }
+} 
